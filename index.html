@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta página es la entrega para la actividad No.4 de competencias digitales">
+    <meta name="theme-color" content="#110f25">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cryptocore" />
+    <meta property="og:description" content="Empresa consultora de software" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/devcryptocore/devcryptocore.github.io/refs/heads/main/spash.webp" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="632" />
+    <meta property="og:url" content="https://devcryptocore.github.io" />
+    <meta property="og:site_name" content="Cryptocore" />
+    <meta property="fb:app_id" content="368569449013481" />
+    <link rel="manifest" href="manifest.json" media="all">
+    <link rel="shortcut icon" href="resources/assets/images/favicon2.ico" type="image/x-icon" media="all">
+    <link rel="stylesheet" href="services/css/main-style.css" media="all">
+    <script src="services/js/jquery.min.js"></script>
+    <script src="services/js/main.js"></script>
+    <script src="services/js/text.js"></script>
+    <script src="services/js/particles.js"></script>
+    <script src="services/js/app.js"></script>
+    <title>Consultoría de software</title>
+</head>
+<body>
+    <div id="loader">
+        <span class="spin-load"></span>
+    </div>
+    <div class="main-container">
+        <canvas class="main-background" id="stars_background" width="1300" height="1300"></canvas>
+        <span class="motiv"></span>
+        <span id="motivx"></span>
+        <span id="motivy"></span>
+        <div class="mobile-options-container" id="mcontainer"></div>
+        <div class="nav-bar">
+            <div class="name-container">
+                <img class="logotipo" src="resources/assets/images/icon248.webp" alt="Cryptocore logo">
+                <span class="nombre">Consultora de software</span>
+            </div>
+            <span class="open-menu-button"></span>
+            <div class="options-container" id="ocontainer"></div>
+        </div>
+        <div class="source active-source" id="source_0">
+            <div class="side-left">
+                <h1 class="big-font" id="bfont"></h1>
+                <h2 class="mid-font" id="mfont"></h2>
+                <button class="go-more">Obtener asesoría</button>
+            </div>
+            <div class="side-right">
+                <div class="ball" id="content">
+                    <span class="sub-ball"></span>
+                </div>
+                <img class="main-img" src="resources/assets/images/brainbx.webp" alt="intel-brain">
+            </div>
+        </div>
+        <div class="source" id="source_1">
+            <div class="side-left">
+                <span class="ic-profile"></span>
+                <div class="ph-container">
+                    <div class="spins"></div>
+                    <div class="photo-container">
+                        <img src="resources/assets/images/profile-photo.webp" alt="Profile photo" class="profile-photo">
+                    </div>
+                </div>
+                <div class="d-myprofile pf1"></div>
+            </div>
+            <div class="side-right">
+                <div class="mun-container">
+                    <div id="title-cont"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="source" id="source_2">
+            <div class="side-left">
+                <span class="ic-profile"></span>
+                <div class="ph-container">
+                    <div class="spins"></div>
+                    <div class="photo-container">
+                        <img src="resources/assets/images/maleavatar.png" alt="Profile photo" class="profile-photo">
+                    </div>
+                </div>
+                <div class="d-myprofile pf2"></div>
+            </div>
+            <div class="side-right">
+                <div class="mun-container">
+                    <div id="title-cont2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="source" id="source_3">
+            <div class="side-left">
+                <span class="ic-profile"></span>
+                <div class="ph-container">
+                    <div class="spins"></div>
+                    <div class="photo-container">
+                        <img src="resources/assets/images/maleavatar.png" alt="Profile photo" class="profile-photo">
+                    </div>
+                </div>
+                <div class="d-myprofile pf3"></div>
+            </div>
+            <div class="side-right">
+                <div class="mun-container">
+                    <div id="title-cont3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="source" id="source_4">
+            <div class="side-left">
+                <span class="ic-profile"></span>
+                <div class="ph-container">
+                    <div class="spins"></div>
+                    <div class="photo-container">
+                        <img src="resources/assets/images/femaleavatar.png" alt="Profile photo" class="profile-photo">
+                    </div>
+                </div>
+                <div class="d-myprofile pf4"></div>
+            </div>
+            <div class="side-right">
+                <div class="mun-container">
+                    <div id="title-cont4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="source" id="source_5">
+            <div class="side-left">
+                <span class="ic-profile"></span>
+                <div class="ph-container">
+                    <div class="spins"></div>
+                    <div class="photo-container">
+                        <img src="resources/assets/images/maleavatar.png" alt="Profile photo" class="profile-photo">
+                    </div>
+                </div>
+                <div class="d-myprofile pf5"></div>
+            </div>
+            <div class="side-right">
+                <div class="mun-container">
+                    <div id="title-cont5"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="source" id="source_6">
+            <div class="side-left proyectos" id="proj">
+                <div class="codeimg"></div>
+                <div class="rec-text"></div>
+            </div>
+            <div class="side-right Rproyectos">
+                <div class="cards"></div>
+            </div>
+        </div>
+        <div class="source" id="source_7">
+            <div class="side-left">
+                <div class="whatsapp-box">
+                    <h2 class="mid-font">Envíame un mensaje</h2>
+                    <form id="send-form">
+                        <div class="e-label">
+                            <input type="text" required placeholder="Nombre" autocomplete="off" id="user_name" maxlength="50">
+                        </div>
+                        <div class="e-label">
+                            <input type="tel" required placeholder="Teléfono" id="user_tel" maxlength="10">
+                        </div>
+                        <div class="e-label txa">
+                            <textarea id="user_text" required placeholder="Mensaje" maxlength="130"></textarea>
+                            <span id="maxchar"></span>
+                        </div>
+                        <input type="submit" class="ennv" value="Enviar mensaje">
+                        <span class="spinx"></span>
+                    </form>
+                </div>
+            </div>
+            <div class="side-right">
+                <div class="im-cont"></div>
+            </div>
+        </div>
+        <div class="source" id="source_8"></div>
+    </div>
+</body>
+</html>

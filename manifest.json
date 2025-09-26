@@ -1,6 +1,6 @@
 {
-    "short-name": "Cryptocore",
-    "name": "Fernando Osorio, mi perfil profesional",
+    "short-name": "Consultoría de software",
+    "name": "Trabajo de grupo",
     "icons": [
         {
             "src": "resources/assets/images/icon2148.png",
@@ -26,5 +26,5 @@
     "display": "standalone",
     "scope": "/",
     "theme_color": "#110f25",
-    "description": "Esta es la página de perfil de Fernando Osorio, en ella se muestra su perfil profesional, habilidades, contacto y proyectos desarrollados."
+    "description": "Esta página es presentada para la actividad número 4 de la asignatura de competencias digitales"
 }
