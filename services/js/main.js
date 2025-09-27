@@ -183,7 +183,7 @@ $(document).ready(()=>{
                 `;
             }
             else {
-                location.href=`https://web.whatsapp.com/send/?phone=%2B573106574835&text=%0A%E2%9C%AA+%2ANombre%3A%2A++_${name}_%0A%0A%E2%9C%AA+%2AN%C3%BAmero+de+tel%C3%A9fono%3A%2A++_${tel}_%0A%0A%E2%9C%AA+${text}%0A%0A%E2%9C%AA+%2AEl+${day}+/+${mes}+/+${year}+a+las+${hour}:${minutes}%2A%0A%0A%0A%0A%C2%A9Cryptocore+2024&type=phone_number&app_absent=0`;location.href=`https://web.whatsapp.com/send/?phone=%2B573106574835&text=%0A%E2%9C%AA+%2ANombre%3A%2A++_${name}_%0A%0A%E2%9C%AA+%2AN%C3%BAmero+de+tel%C3%A9fono%3A%2A++_${tel}_%0A%0A%E2%9C%AA+${text}%0A%0A%E2%9C%AA+%2AEl+${day}+/+${mes}+/+${year}+a+las+${hour}:${minutes}%2A%0A%0A%0A%0A%C2%A9Cryptocore+2024&type=phone_number&app_absent=0`;
+                location.href=`https://web.whatsapp.com/send/?phone=%2B573106574835&text=%0A%E2%9C%AA+%2ANombre%3A%2A++_${name}_%0A%0A%E2%9C%AA+%2AN%C3%BAmero+de+tel%C3%A9fono%3A%2A++_${tel}_%0A%0A%E2%9C%AA+${text}%0A%0A%E2%9C%AA+%2AEl+${day}+/+${mes}+/+${year}+a+las+${hour}:${minutes}%2A%0A%0A%0A%0A%C2%A9Cryptocore+2024&type=phone_number&app_absent=0`;location.href=`https://web.whatsapp.com/send/?phone=%2B573106574835&text=%0A%E2%9C%AA+%2ANombre%3A%2A++_${name}_%0A%0A%E2%9C%AA+%2AN%C3%BAmero+de+tel%C3%A9fono%3A%2A++_${tel}_%0A%0A%E2%9C%AA+${text}%0A%0A%E2%9C%AA+%2AEl+${day}+/+${mes}+/+${year}+a+las+${hour}:${minutes}%2A%0A%0A%0A%0A%C2%A9Cryptocore+${year}&type=phone_number&app_absent=0`;
             }          
         },3000);
     })
