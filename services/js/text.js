@@ -62,9 +62,15 @@ let my_profile_4 = `
     <h2 class="midp-font">Soy Evelin Ochoa Imbrechts</h2>
     <div class="sm-text">
         <p>
-            Ingeniera de Software Full-Stack con 5 años de experiencia, enfocada en crear soluciones web completas, desde la interfaz de usuario hasta la lógica del servidor. Dominio de JavaScript/TypeScript en el frontend (React, Vue.js) y el backend (Node.js, Express)
+            Ingeniera en Desarrollo de Software con más de 5 años de experiencia en
+            el diseño, implementación y optimización de aplicaciones web y móviles.
+            Especialista en bases de datos, análisis de datos y seguridad informática.
+            Capacidad demostrada en la gestión de proyectos de desarrollo,
+            infraestructura tecnológica y redes
         <p>
-            Apasionada por el diseño centrado en el usuario y la optimización de la experiencia (UX/UI). Experiencia trabajando en metodologías Agile/Scrum y utilizando DevOps básicos (Git, CI/CD).
+            Reconocida por su liderazgo como
+            Senior Developer, con habilidades para transformar requerimientos de
+            negocio en soluciones tecnológicas escalables y seguras.
         </p>
     </div>
 `;
