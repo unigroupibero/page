@@ -1,6 +1,8 @@
 let encabezado = `PROFESIONALES EN SOFTWARE`;
 let subtitle = `BRINDAMOS SERVICIOS INFORMÁTICOS Y TECNOLÓGICOS PROFESIONALES, FLEXIBLES, DINÁMICOS Y SEGUROS,
  PROYECTADOS AL DESARROLLO TECNOLÓGICO DE NUESTROS CLIENTES.`;
+ let year = new Date();
+ year = year.getFullYear();
  let opciones = `
     <span class="option active-option" id="option_0"><b id="ic_option_0"></b>Inicio</span>
     <span class="option" id="option_1"><b id="ic_option_1"></b>Nosotros</span>

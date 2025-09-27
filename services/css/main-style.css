@@ -978,7 +978,7 @@ img {
     justify-content: center;
     flex-direction: column;
 }
-#source_8 {
+#source_9 {
     flex-direction: column;
     width: 100%;
 }
@@ -1060,6 +1060,62 @@ img {
 .tech {
     width: 40px;
     height: 40px;
+    border-radius: 8px;
+}
+.gallery {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: auto;
+}
+.gallery a {
+    width: 40%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.gallery a:nth-child(1)::after,
+.gallery a:nth-child(2)::after,
+.gallery a:nth-child(3)::after,
+.gallery a:nth-child(4)::after,
+.gallery a:nth-child(5)::after,
+.gallery a:nth-child(6)::after {
+    content: "Juego de bingo";
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #0000008f;
+    position: absolute;
+    bottom: 10px;
+}
+.gallery a:nth-child(2)::after {
+    content: "Página para móviles";
+}
+.gallery a:nth-child(3)::after {
+    content: "Sistema para tapicería";
+}
+.gallery a:nth-child(4)::after {
+    content: "Sistema para ISPs";
+}
+.gallery a:nth-child(5)::after {
+    content: "Sistema para mikrotik";
+}
+.gallery a:nth-child(6)::after {
+    content: "Templates preconfigurados";
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
     border-radius: 8px;
 }
 .logotp {

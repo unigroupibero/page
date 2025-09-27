@@ -1,3 +1,4 @@
+import PhotoSwipeLightbox from './photoswipe.js';
 const fecha = new Date();
 let minutes = fecha.getMinutes();
 let hour = fecha.getHours();
@@ -41,6 +42,14 @@ $(document).ready(()=>{
             ctx.fill();
         }
     }(jQuery));
+
+    const lightbox = new PhotoSwipeLightbox({
+        gallery: '#my-gallery',
+        children: 'a',
+        pswpModule: () => import('./photoswipe.esm.js')
+    });
+    lightbox.init();
+
     (function(){
         $("#bfont").text(encabezado);
         $("#mfont").text(subtitle);
@@ -58,7 +67,7 @@ $(document).ready(()=>{
         $(".rec-text").html(intro_projects);
         $(".cards").html(projects);
         $(".im-cont").html(contacters);
-        $("#source_8").html(my_social);
+        $("#source_9").html(my_social);
         $(".motiv").css("animation","positionA 205s linear 1s infinite alternate");
         $("#motivx").css("animation","positionB 220s linear 1s infinite alternate");
         $("#motivy").css("animation","positionC 180s linear 1s infinite alternate");
@@ -118,7 +127,7 @@ $(document).ready(()=>{
             $("#mcontainer").html(`
                 <span class="close-menu" id="cmenu"></span>
                 ${opciones}
-                <span class="foot">© Cryptocore ${year}</span>
+                <span class="foot">© Consultoría de software ${year}</span>
             `);
             mark = 1;
         }

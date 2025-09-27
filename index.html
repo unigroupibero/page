@@ -17,8 +17,10 @@
     <link rel="manifest" href="manifest.json" media="all">
     <link rel="shortcut icon" href="resources/assets/images/favicon2.ico" type="image/x-icon" media="all">
     <link rel="stylesheet" href="services/css/main-style.css" media="all">
+    <link rel="stylesheet" href="services/css/photoswipe.css">
+    <script type="module" src="services/js/photoswipe.js"></script>
     <script src="services/js/jquery.min.js"></script>
-    <script src="services/js/main.js"></script>
+    <script type="module" src="services/js/main.js"></script>
     <script src="services/js/text.js"></script>
     <script src="services/js/particles.js"></script>
     <script src="services/js/app.js"></script>
@@ -115,7 +117,7 @@
                 <div class="ph-container">
                     <div class="spins"></div>
                     <div class="photo-container">
-                        <img src="resources/assets/images/evl.png" alt="Profile photo" class="profile-photo">
+                        <img src="resources/assets/images/evl.png" alt="Profile photo" class="profile-photo" style="transform:translateY(15px);object-fit:contain;">
                     </div>
                 </div>
                 <div class="d-myprofile pf4"></div>
@@ -155,6 +157,46 @@
             </div>
         </div>
         <div class="source" id="source_7">
+            <div class="gallery" id="my-gallery">
+                <a href="resources/assets/images/bingo.png" 
+                    data-pswp-width="1200" 
+                    data-pswp-height="600" 
+                    target="_blank">
+                    <img src="resources/assets/images/bingo.png" alt="Imagen 1">
+                </a>
+                <a href="resources/assets/images/xiaomi.png" 
+                    data-pswp-width="1200" 
+                    data-pswp-height="600" 
+                    target="_blank">
+                    <img src="resources/assets/images/xiaomi.png" alt="Imagen 2">
+                </a>
+                <a href="resources/assets/images/fundas.png" 
+                    data-pswp-width="1200" 
+                    data-pswp-height="600" 
+                    target="_blank">
+                    <img src="resources/assets/images/fundas.png" alt="Imagen 3">
+                </a>
+                <a href="resources/assets/images/systemisp.png" 
+                    data-pswp-width="1200" 
+                    data-pswp-height="600" 
+                    target="_blank">
+                    <img src="resources/assets/images/systemisp.png" alt="Imagen 4">
+                </a>
+                <a href="resources/assets/images/mtks.png" 
+                    data-pswp-width="1200" 
+                    data-pswp-height="600" 
+                    target="_blank">
+                    <img src="resources/assets/images/mtks.png" alt="Imagen 5">
+                </a>
+                <a href="resources/assets/images/earth.png" 
+                    data-pswp-width="1200" 
+                    data-pswp-height="600" 
+                    target="_blank">
+                    <img src="resources/assets/images/earth.png" alt="Imagen 6">
+                </a>
+            </div>
+        </div>
+        <div class="source" id="source_8">
             <div class="side-left">
                 <div class="whatsapp-box">
                     <h2 class="mid-font">Envíame un mensaje</h2>
@@ -178,7 +220,7 @@
                 <div class="im-cont"></div>
             </div>
         </div>
-        <div class="source" id="source_8"></div>
+        <div class="source" id="source_9"></div>
     </div>
 </body>
 </html>
