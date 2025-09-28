@@ -76,6 +76,18 @@ $(document).ready(()=>{
     (function(){
         $(".option").each((ind,elem)=>{
             $(elem).click(()=>{
+                if(ind == 2){
+                    ind = ind+4;
+                }
+                else if(ind == 3){
+                    ind = ind+5;
+                }
+                else if (ind == 4){
+                    ind = ind+5;
+                }
+                else {
+                    ind = ind;
+                }
                 $(".option").removeClass("active-option");
                 $(elem).addClass("active-option");
                 $("html,body").animate({
